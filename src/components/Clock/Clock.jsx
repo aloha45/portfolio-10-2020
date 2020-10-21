@@ -9,7 +9,7 @@ class Clock extends Component {
         }
      }
     
-     updateTime(time) {
+    updateTime(time) {
          if (time < 10) {
              return "0" + time;
             }
@@ -18,23 +18,23 @@ class Clock extends Component {
             }
         }
         
-        currentTime() {
-            let date = new Date();
-            let hour = date.getHours();        let min = date.getMinutes();
-            let sec = date.getSeconds();
-            hour = this.updateTime(hour);
-            if (hour > 12) {
-                hour = parseInt((hour - 12))
+    currentTime() {
+        let date = new Date();
+        let hour = date.getHours();        
+        let min = date.getMinutes();
+        let sec = date.getSeconds();
+        hour = this.updateTime(hour);
+        if (hour > 12) {
+            hour = parseInt((hour - 12))
+        }
+        min = this.updateTime(min);
+        sec = this.updateTime(sec);
+        this.setState({ clock: {
+            hour: hour,
+            minute: min,
+            second: sec
             }
-            min = this.updateTime(min);
-            sec = this.updateTime(sec);
-            this.setState({ clock: {
-                hour: hour,
-                minute: min,
-                second: sec
-                }
-            })
-        // document.getElementById("clock").innerText = hour + " : " + min + " : " + sec; 
+        })
     }
 
     
