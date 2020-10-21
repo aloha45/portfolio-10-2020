@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
-import App from './App';
+import App from './pages/App/App';
 import * as serviceWorker from './serviceWorker';
-import Greeter from './Greeter';
+import Greeter from './components/Greeter/Greeter';
 
 const g = <Greeter />;
 console.dir(g)
