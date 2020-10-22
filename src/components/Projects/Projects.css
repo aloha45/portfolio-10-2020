@@ -2,17 +2,16 @@
     background-color: silver
 }
 
-.pictures {
-    height: 25%;
-    width: 25%;
-    border-radius: 5px;
+.card {
+    margin: 10px;
+    text-align: center;
 }
 
-/* .container {
-    display: grid;
-    padding: 15px;
-    width: 125px;
-} */
+.pictures {
+    height: px;
+    border-radius: 15px;
+    padding: 5px
+}
 
 .btn {
     background-color: red
@@ -21,3 +20,37 @@
 .btn:hover {
     background-color: blue;
 }
+
+.card:hover{
+    size: 150%;
+}
+
+@media (min-width: 300px){
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto
+    }
+    }
+
+@media (min-width: 700px){
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto
+    }
+    }
+
+@media (min-width: 1000px){
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+}
+
+@media (min-width: 1300px){
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    }
