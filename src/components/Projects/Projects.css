@@ -1,3 +1,23 @@
 .projects {
     background-color: silver
 }
+
+.pictures {
+    height: 25%;
+    width: 25%;
+    border-radius: 5px;
+}
+
+/* .container {
+    display: grid;
+    padding: 15px;
+    width: 125px;
+} */
+
+.btn {
+    background-color: red
+}
+
+.btn:hover {
+    background-color: blue;
+}
