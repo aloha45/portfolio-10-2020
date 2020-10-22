@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Projects.css'
 
 class Projects extends Component {
     state = { 
@@ -33,11 +34,13 @@ class Projects extends Component {
     render() { 
         return ( 
             <React.Fragment>
+                <div className='projects'>
                 <h2>Cory rules</h2>
                 <h3>Check out his projects:</h3>
                 {this.state.projects.map((project) => (
                     <div>{project.name}</div>
                 ))}
+                </div>
             </React.Fragment>
          );
     }

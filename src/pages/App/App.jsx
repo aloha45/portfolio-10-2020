@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Clock from '../../components/Clock/Clock'
 import NavBar from '../../components/NavBar/NavBar'
+import AboutMe from '../../components/AboutMe/AboutMe'
 import Projects from '../../components/Projects/Projects'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <NavBar />
       <Clock />
       <Projects />
+      <AboutMe />
     </div>
   );
 }

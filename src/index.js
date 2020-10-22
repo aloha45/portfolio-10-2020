@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './style.css';
 import App from './pages/App/App';
 import * as serviceWorker from './serviceWorker';
-import Greeter from './components/Greeter/Greeter';
+import Greeter from './components/AboutMe/AboutMe';
 
 const g = <Greeter />;
 console.dir(g)
