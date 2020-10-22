@@ -1,21 +1,22 @@
 import React from 'react'
+import './NavBar.css'
 
 const NavBar = () => {
     return ( 
         <React.Fragment>
-            <header>
-            <nav>
-                <div className='nav-wrapper'>
-                    <ul id="nav-mobile" className="right">
-                    <ul className="nav justify-content-end">
-                        <li className="nav-item">
-                        <a className="nav-link active" href="/about">About</a>
-                        </li>
-                    </ul>
-                    </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Cory Spicer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link" href="#">Contact</a>
                 </div>
+            </div>
             </nav>
-            </header>
         </React.Fragment>
      );
 }

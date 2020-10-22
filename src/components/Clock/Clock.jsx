@@ -12,8 +12,7 @@ class Clock extends Component {
     updateTime(time) {
          if (time < 10) {
              return "0" + time;
-            }
-            else {
+            } else {
                 return time;
             }
         }
