@@ -7,27 +7,32 @@ class Projects extends Component {
             {
             unit: 1,
             name: 'Plus One',
-            link: '#',
+            link: 'https://plus-one.surge.sh',
             screenshot: ''
             },
             {
             unit: 2,
             name: 'Survivor Database',
-            link: '#',
+            link: 'https://survivor-database.herokuapp.com/',
             screenshot: ''
             },
             {
             unit: 3,
             name: 'Beets',
-            link: '#',
+            link: 'https://beets-base.herokuapp.com/',
             screenshot: ''
             },
             {
             unit: 4,
             name: 'Dapjeongneo',
-            link: '#',
+            link: 'https://dapjeongneo.herokuapp.com/',
             screenshot: ''
-            }
+            },{
+            unit: 0,
+            name: 'Is it Friday?',
+            link: 'https://eager-shoes.surge.sh/',
+            screenshot: ''
+        }
         ]
      }
 
@@ -38,7 +43,12 @@ class Projects extends Component {
                 <h2>Cory rules</h2>
                 <h3>Check out his projects:</h3>
                 {this.state.projects.map((project) => (
-                    <div>{project.name}</div>
+                    <div>
+                    <h4>{project.unit}:</h4>
+                    <a href={project.link}>
+                        <div>{project.name}</div>
+                    </a>
+                    </div>
                 ))}
                 </div>
             </React.Fragment>

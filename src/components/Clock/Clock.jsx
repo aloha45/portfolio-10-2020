@@ -26,6 +26,9 @@ class Clock extends Component {
         hour = this.updateTime(hour);
         if (hour > 12) {
             hour = parseInt((hour - 12))
+        } 
+        if (hour === 0) {
+            hour = 12
         }
         min = this.updateTime(min);
         sec = this.updateTime(sec);
