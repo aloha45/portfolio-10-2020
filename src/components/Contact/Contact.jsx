@@ -14,6 +14,7 @@ class Contact extends Component {
                     <a href='https://www.github.com/aloha45'>
                     <i class="fab fa-github-square"></i>
                     </a>
+                    <br></br>
                     <a href='https://www.linkedin.com/in/cory-spicer'>
                     <i class="fab fa-linkedin"></i>
                     </a>

@@ -13,7 +13,6 @@ h2 {
 .card {
     margin: 0 auto;
     text-align: center;
-    height: 200px
 }
 
 .pictures {
@@ -43,19 +42,31 @@ h2 {
         grid-template-columns: repeat(1, 1fr);
         margin: 0 auto
     }
+    .card {
+        height: 800px
+    }
     }
 
-@media (min-width: 700px){
+@media (min-width: 768px){
     .container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+    
+    .card {
+        height: 200px
     }
     }
 
-@media (min-width: 1000px){
+@media (min-width: 1100px){
     .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         text-align:center;
+        margin: 0 auto
+    }
+    .card {
+        height: 200px
     }
     }

@@ -1,7 +1,6 @@
-/* The navigation bar */
 .navbar {
-    overflow: hidden;
-    background-image: linear-gradient(to right, gold, whitesmoke);
+    overflow: visible;
+    background-image: linear-gradient(to right, seagreen, whitesmoke);
     position: fixed;
     z-index: 99;
     top: 0;
