@@ -36,7 +36,7 @@ class Projects extends Component {
             name: 'Is it Friday?',
             description: 'dom manipulation tester',
             link: 'https://eager-shoes.surge.sh/',
-            screenshot: ''
+            screenshot: 'https://imgur.com/HrMDPR7.jpg'
         }
         ]
      }
@@ -60,6 +60,7 @@ class Projects extends Component {
                 ))}
                 </div>
                 </div>
+                <br></br>
             </React.Fragment>
          );
     }

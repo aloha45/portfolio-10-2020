@@ -1,11 +1,28 @@
 .projects {
-    background-color: silver
+    background-image: url('../../images/banner.jpg');
+    background-repeat: repeat;
+    background-size: 100px 100px;
+}
+
+h2 {
+    color: gold;
+    text-shadow: 5px black;
 }
 
 .card {
-    margin: 10px;
+    margin: 0 auto;
     text-align: center;
+    padding: 15px; /* JUST TO LOOK COOL */
+    border: 1px solid #eee;  /* JUST TO LOOK COOL */
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px;
+    transition: all .3s ease-in-out;
 }
+
+.card:hover {
+    margin-top: -3px;
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -1px, 0px);
+  }
 
 .pictures {
     height: px;
@@ -14,7 +31,8 @@
 }
 
 .btn {
-    background-color: red
+    background-color: red;
+    transition: background-color .4s;
 }
 
 .btn:hover {
@@ -37,20 +55,14 @@
     .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin: 0 auto
+        
     }
     }
 
 @media (min-width: 1000px){
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-}
-
-@media (min-width: 1300px){
     .container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        text-align:center;
     }
     }
