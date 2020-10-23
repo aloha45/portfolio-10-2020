@@ -3,14 +3,15 @@ import './AboutMe.css'
 
 class AboutMe extends Component {
     state = { 
-        
+        profile: 'just gonna see if this works'
      }
     render() { 
         return ( 
             <React.Fragment>
                 <div id='aboutme'>
+                <img src='' alt='here is a picture of me' />
                 <h1>Cory rules</h1>
-                <p>All about Cory blah blah blah</p>
+                <p>{this.state.profile}</p>
                 </div>
             </React.Fragment>
          );

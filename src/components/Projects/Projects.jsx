@@ -13,7 +13,7 @@ class Projects extends Component {
             },
             {
             unit: 2,
-            name: 'Survivor Database',
+            name: "All the Fixin's",
             description: 'building my own api',
             link: 'https://survivor-database.herokuapp.com/',
             screenshot: 'https://imgur.com/xgrrHCg.jpg'
