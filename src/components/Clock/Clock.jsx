@@ -43,6 +43,7 @@ class Clock extends Component {
     
     
     componentDidMount() {
+        this.currentTime()
         setInterval(()=>{ this.currentTime() }, 1000); 
     }
 

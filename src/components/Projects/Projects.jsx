@@ -40,27 +40,48 @@ class Projects extends Component {
         }
         ]
      }
-
+    //  {/* <div className='projects'>
+    //  <h2>Cory rules</h2>
+    //  <h3>Check out his dope projects:</h3>
+    //  <div className='container'>
+    //  {this.state.projects.map((project) => (
+    //      <div className="card" style={{width: '18rem'}}>
+    //      <img src={project.screenshot} className="card-img-top pictures" alt="..." />
+    //      <div className="card-body">
+    //        <h5 className="card-title">{project.name}</h5>
+    //        <p className="card-text">{project.description}</p>
+    //        <a className='btn btn-primary' href={project.link}>Check it out</a>
+    //      </div>
+    //    </div>
+    //  ))}
+    //  </div>
+    //  </div> */}
+     
     render() { 
         return ( 
             <React.Fragment>
-                <div className='projects'>
+                <div className='projects' id='projects'>
                 <h2>Cory rules</h2>
                 <h3>Check out his dope projects:</h3>
-                <div className='container'>
+                <div className='container'> 
                 {this.state.projects.map((project) => (
-                    <div className="card" style={{width: '18rem'}}>
-                    <img src={project.screenshot} className="card-img-top pictures" alt="..." />
-                    <div className="card-body">
-                      <h5 className="card-title">{project.name}</h5>
-                      <p className="card-text">{project.description}</p>
-                      <a className='btn btn-primary' href={project.link}>Check it out</a>
+                <div className="card mb-3" style={{width: '540px'}}>
+                    <div className="row no-gutters">
+                        <div className="col-md-4">
+                        <img src={project.screenshot} className="card-img" alt="..." />
+                        </div>
+                        <div className="col-md-8">
+                        <div className="card-body">
+                            <h5 className="card-title">{project.name}</h5>
+                            <p className="card-text">{project.description}</p>
+                            <a className='btn btn-primary' href={project.link}>Check it out</a>
+                        </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
                 ))}
                 </div>
                 </div>
-                <br></br>
             </React.Fragment>
          );
     }
