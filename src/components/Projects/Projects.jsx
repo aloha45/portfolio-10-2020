@@ -66,7 +66,6 @@ class Projects extends Component {
         return ( 
             <React.Fragment>
                 <div className='projects' id='projects'>
-                <h2>Cory rules</h2>
                 <h3>Check out his dope projects:</h3>
                 <div className='container'> 
                 {this.state.projects.map((project) => (

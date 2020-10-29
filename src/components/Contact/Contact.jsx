@@ -9,15 +9,16 @@ class Contact extends Component {
         return ( 
             <React.Fragment>
                 <div id='contact'>
-                    <h1>Cory rules</h1>
                     <h2>Get in touch here:</h2>
-                    <a href='https://www.github.com/aloha45'>
-                    <i class="fab fa-github-square"></i>
-                    </a>
-                    <br></br>
-                    <a href='https://www.linkedin.com/in/cory-spicer'>
-                    <i class="fab fa-linkedin"></i>
-                    </a>
+                    <div className='contact-container'>
+                        <a href='https://www.github.com/aloha45'>
+                        <i className="fab fa-github-square"> Github</i>
+                        </a>
+                        <br></br>
+                        <a href='https://www.linkedin.com/in/cory-spicer'>
+                        <i className="fab fa-linkedin"> LinkedIn</i>
+                        </a>
+                    </div>
                 </div>
             </React.Fragment>
          );

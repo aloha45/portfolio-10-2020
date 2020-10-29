@@ -47,7 +47,7 @@ h2 {
         margin: 0 auto
     }
     .card {
-        height: 800px
+        height: 1000px
     }
     }
 
@@ -57,9 +57,8 @@ h2 {
         grid-template-columns: repeat(1, 1fr);
         margin: 0 auto;
     }
-    
     .card {
-        height: 200px
+        height: 300px
     }
     }
 
@@ -71,6 +70,6 @@ h2 {
         margin: 0 auto
     }
     .card {
-        height: 380px;
+        height: 420px;
     }
     }

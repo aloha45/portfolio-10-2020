@@ -3,14 +3,14 @@ import './AboutMe.css'
 
 class AboutMe extends Component {
     state = { 
-        profile: 'just gonna see if this works'
+        profile: "I am always in search of synchronicity, whether on a project sprint or in the kitchen. I love times when a team comes together, a plan comes together, and the execution goes just how you expected--when you make ten dishes at once and they all come out, hot, at just the right time. I'm interested in creative, collaborative projects, building out APIs and calling everything you need to just the right place. I'll throw the Spotify Web API on anything."
      }
     render() { 
         return ( 
             <React.Fragment>
                 <div id='aboutme'>
                 <img src='' alt='here is a picture of me' />
-                <h1>Cory rules</h1>
+                <h1>Cory Spicer</h1>
                 <p>{this.state.profile}</p>
                 </div>
             </React.Fragment>

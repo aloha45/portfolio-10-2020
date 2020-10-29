@@ -15,8 +15,8 @@ const NavBar = () => {
                     <a className="nav-link" href="#projects">Projects <span class="sr-only">(current)</span></a>
                     <a className="nav-link" href="#aboutme">About Me</a>
                     <a className="nav-link" href="#contact">Contact</a>
-                </div>
                     <span className="clock"><Clock /></span>
+                </div>
             </div>
             </nav>
         </React.Fragment>
