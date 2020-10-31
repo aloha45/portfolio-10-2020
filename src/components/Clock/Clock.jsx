@@ -39,8 +39,6 @@ class Clock extends Component {
             }
         })
     }
-
-    
     
     componentDidMount() {
         this.currentTime()

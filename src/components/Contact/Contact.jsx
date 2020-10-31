@@ -12,11 +12,12 @@ class Contact extends Component {
                     <h2>Get in touch here:</h2>
                     <div className='contact-container'>
                         <a href='https://www.github.com/aloha45'>
-                        <i className="fab fa-github-square"> Github</i>
+                            <i className="fab fa-github-square fa-4x" />
+                            <p>Github</p>
                         </a>
-                        <br></br>
                         <a href='https://www.linkedin.com/in/cory-spicer'>
-                        <i className="fab fa-linkedin"> LinkedIn</i>
+                            <i className="fab fa-linkedin fa-4x" />
+                            <p>LinkedIn</p>
                         </a>
                     </div>
                 </div>

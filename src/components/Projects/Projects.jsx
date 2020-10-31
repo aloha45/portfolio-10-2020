@@ -84,7 +84,9 @@ class Projects extends Component {
                                     <li className='tech'>{tech}</li>
                                     ))}
                             </ul>
-                        <a className='btn btn-primary' href={project.link}>Check it out</a>
+                        <div className='btn-container'>
+                            <a className='btn btn-primary' href={project.link}>Check it out</a>
+                        </div>
                         </div>
                         </div>
                     </div>
