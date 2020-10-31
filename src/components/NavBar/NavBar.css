@@ -1,12 +1,11 @@
 .navbar {
     overflow: visible;
-    background-image: linear-gradient(to right, seagreen, whitesmoke);
+    background-image: linear-gradient(to right, #007bff, whitesmoke);
     position: fixed;
     z-index: 99;
     top: 0;
     width: 100%;
     font-family: 'Lobster', cursive;
-
   }
   
   .navbar a {
