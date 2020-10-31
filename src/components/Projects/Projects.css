@@ -5,6 +5,10 @@
     margin-top: 100px
 }
 
+.projects-header {
+    color: gold
+}
+
 h2 {
     color: gold;
     text-shadow: 5px black;
@@ -22,7 +26,7 @@ h2 {
 }
 
 .card-text {
-    border-bottom: seagreen;
+    border-bottom: #007bff;
 }
 
 .pictures {
@@ -45,7 +49,7 @@ ul {
 }
 
 .btn:hover {
-    background-color: seagreen;
+    background-color: #007bff;
     margin-top: -3px;
     box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
     transform: translate3d(0px, -1px, 0px);
