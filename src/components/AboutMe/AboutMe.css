@@ -8,7 +8,7 @@ body {
 
 #profile-pic {
     margin: 0 auto;
-
+    border-radius: 5px;
 }
 
 @media(max-width: 768px) {
@@ -17,6 +17,6 @@ body {
     }
 
     .card {
-        
+
     }
 }

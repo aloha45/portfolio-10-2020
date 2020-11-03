@@ -34,7 +34,7 @@ class Projects extends Component {
             description: '"Dapjeongneo" is a Korean expression that means waiting for the response to a question you know the answer to. It is a dream journal that can record and persist logged dreams as posts created by a user, or, by using symbols to metaphorically express the memory of a dream, replicating the hazy notion of half-sleep. The Dream Clock was made in CSS and also doubles as an alternative to logging dream details in the middle of the night, helping you get back to dream land more quickly!',
             link: 'https://dapjeongneo.herokuapp.com/',
             screenshot: 'https://imgur.com/C1Lujte.jpg',
-            tech: ['Django', 'Python', 'Javascript']
+            tech: ['Django', 'Python', 'Javascript', 'PostgreSQL', 'CSS']
             },{
             unit: 0,
             name: 'Is it Friday?',
@@ -45,22 +45,6 @@ class Projects extends Component {
         }
         ]
      }
-    //  {/* <div className='projects'>
-    //  <h2>Cory rules</h2>
-    //  <h3>Check out his dope projects:</h3>
-    //  <div className='container'>
-    //  {this.state.projects.map((project) => (
-    //      <div className="card" style={{width: '18rem'}}>
-    //      <img src={project.screenshot} className="card-img-top pictures" alt="..." />
-    //      <div className="card-body">
-    //        <h5 className="card-title">{project.name}</h5>
-    //        <p className="card-text">{project.description}</p>
-    //        <a className='btn btn-primary' href={project.link}>Check it out</a>
-    //      </div>
-    //    </div>
-    //  ))}
-    //  </div>
-    //  </div> */}
      
     render() { 
         return ( 

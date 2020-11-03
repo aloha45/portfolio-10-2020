@@ -62,7 +62,10 @@ ul {
         margin: 0 auto
     }
     .card {
-        height: 1000px
+        height: auto
+    }
+    .btn-container {
+        height: 90px
     }
     }
 
