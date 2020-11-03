@@ -12,8 +12,8 @@ const NavBar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <a className="nav-link" href="#projects">Projects <span class="sr-only">(current)</span></a>
                     <a className="nav-link" href="#aboutme">About Me</a>
+                    <a className="nav-link" href="#projects">Projects <span class="sr-only">(current)</span></a>
                     <a className="nav-link" href="#contact">Contact</a>
                     <span className="clock"><Clock /></span>
                 </div>

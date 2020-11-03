@@ -12,7 +12,11 @@
 }
 
 .contact {
-    height: 400px
+    height: auto; 
+}
+
+#contact-header {
+    font-size: 36px
 }
 
 @media(max-width: 768px){

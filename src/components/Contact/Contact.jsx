@@ -8,8 +8,9 @@ class Contact extends Component {
     render() { 
         return ( 
             <React.Fragment>
+                <main>
                 <div id='contact'>
-                    <h2>Get in touch here:</h2>
+                    <h2 id='contact-header'>Get in touch here:</h2>
                     <div class="card contact mb-3" style={{'max-width': '540px'}}>
                         <div className="row no-gutters">
                             <div className="col-md-4">
@@ -22,11 +23,6 @@ class Contact extends Component {
                             <li className="list-group-item">Queens, NY</li>
                             <li className="list-group-item">corys4139@gmail.com</li>
                             <li className="list-group-item">614-832-2739</li>
-                        </ul>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
                     <div className='contact-container'>
                         <a href='https://www.github.com/aloha45'>
                             <i className="fab fa-github-square fa-4x" />
@@ -36,8 +32,14 @@ class Contact extends Component {
                             <i className="fab fa-linkedin fa-4x" />
                             <p>LinkedIn</p>
                         </a>
+                        </div>
+                        </ul>
+                            </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                </main>
             </React.Fragment>
          );
     }

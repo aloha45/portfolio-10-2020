@@ -49,6 +49,7 @@ class Projects extends Component {
     render() { 
         return ( 
             <React.Fragment>
+                <main>
                 <div className='projects' id='projects'>
                 <h3 className='projects-header'>Check out his dope projects:</h3>
                 <div className='container'> 
@@ -78,6 +79,7 @@ class Projects extends Component {
                 ))}
                 </div>
                 </div>
+                </main>
             </React.Fragment>
          );
     }
