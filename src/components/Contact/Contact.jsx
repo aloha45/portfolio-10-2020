@@ -10,6 +10,23 @@ class Contact extends Component {
             <React.Fragment>
                 <div id='contact'>
                     <h2>Get in touch here:</h2>
+                    <div class="card contact mb-3" style={{'max-width': '540px'}}>
+                        <div className="row no-gutters">
+                            <div className="col-md-4">
+                            <img src="https://imgur.com/PU30CEz.jpg" className="card-img" alt="..." />
+                            </div>
+                            <div className="col-md-8">
+                            <div className="card-body">
+                                <h5 className="card-title">Cory Spicer</h5>
+                                <ul className="list-group list-group-flush">
+                            <li className="list-group-item">Queens, NY</li>
+                            <li className="list-group-item">corys4139@gmail.com</li>
+                            <li className="list-group-item">614-832-2739</li>
+                        </ul>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
                     <div className='contact-container'>
                         <a href='https://www.github.com/aloha45'>
                             <i className="fab fa-github-square fa-4x" />

@@ -3,10 +3,21 @@
     text-align:center;
 }
 
-.contact-container {
+/* .contact-container {
     align-items: center;
     text-align: center;
     margin: 0 30%;
     display: flex;
     justify-content: space-around;
+} */
+
+.contact {
+    height: 400px
+}
+
+@media(max-width: 768px){
+.card-img {
+    height: 200px;
+    width: auto
+}
 }

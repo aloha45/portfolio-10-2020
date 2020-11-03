@@ -8,7 +8,7 @@ class AboutMe extends Component {
     render() { 
         return ( 
             <React.Fragment>
-                <img src='' alt='cory so handsome' />
+                <img id="profile-pic" src='https://imgur.com/rqBlvzP.jpg' alt='cory so handsome' />
                 <div id='aboutme' className="card mb-3">
                 <h5 className="card-header">About me</h5>
                 <div className="card-body">

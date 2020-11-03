@@ -5,3 +5,18 @@ body {
 .card {
     width: 75%
 }
+
+#profile-pic {
+    margin: 0 auto;
+
+}
+
+@media(max-width: 768px) {
+    #profile-pic {
+        width: 75%
+    }
+
+    .card {
+        
+    }
+}
