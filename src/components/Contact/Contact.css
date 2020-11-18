@@ -6,7 +6,6 @@
 .contact-container {
     align-items: center;
     text-align: center;
-    margin: 0 30%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -20,7 +19,7 @@
 }
 
 @media(max-width: 768px){
-.card-img {
+.card-imgs {
     height: 200px;
     width: auto
 }

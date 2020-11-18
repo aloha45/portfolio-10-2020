@@ -14,7 +14,7 @@ class Contact extends Component {
                     <div class="card contact mb-3" style={{'max-width': '540px'}}>
                         <div className="row no-gutters">
                             <div className="col-md-4">
-                            <img src="https://imgur.com/PU30CEz.jpg" className="card-img" alt="..." />
+                            <img src="https://imgur.com/PU30CEz.jpg" className="card-imgs" alt="..." />
                             </div>
                             <div className="col-md-8">
                             <div className="card-body">
