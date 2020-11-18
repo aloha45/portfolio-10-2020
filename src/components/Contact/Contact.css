@@ -15,6 +15,10 @@
     font-size: 36px
 }
 
+.card-imgs {
+    margin: 20% 0px 20% 10px;
+}
+
 @media(max-width: 768px){
 .card-imgs {
     height: 200px;
@@ -26,9 +30,8 @@
     .card-imgs {
         width: 100%;
         height: auto;
-        margin: 55% 0px 45% 0px
     }
     #contact {
-        height: 480px
+        height: 400px
     }
 }
