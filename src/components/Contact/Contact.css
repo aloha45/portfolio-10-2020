@@ -8,10 +8,7 @@
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-}
-
-.contact {
-    height: auto; 
+    margin-top: 10px
 }
 
 #contact-header {
@@ -21,6 +18,17 @@
 @media(max-width: 768px){
 .card-imgs {
     height: 200px;
-    width: auto
+    width: auto;
 }
+}
+
+@media(min-width: 768px){
+    .card-imgs {
+        width: 100%;
+        height: auto;
+        margin: 55% 0px 45% 0px
+    }
+    #contact {
+        height: 480px
+    }
 }

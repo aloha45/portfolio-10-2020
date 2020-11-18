@@ -3,7 +3,7 @@ import './AboutMe.css'
 
 class AboutMe extends Component {
     state = { 
-        profile: "I am always in search of synchronicity, whether on a project sprint or in the kitchen. I love times when a team comes together, a plan comes together, and the execution goes just how you expected--when you make ten dishes at once and they all come out, hot, at just the right time. I'm interested in creative, collaborative projects, building out APIs and calling everything you need to just the right place. I'll throw the Spotify Web API on anything."
+        profile: "I am always in search of synchronicity--in coding and in life. I love when a team with a plan comes together and the execution goes just as expected. Often though, problems come up, unforeseen circumstances happen, and I love figuring out the best, quickest solution. I am interested in collaborative projects, building out APIs, and learning new skills: currently working through e-commerce and Shopify."
      }
     render() { 
         return ( 
