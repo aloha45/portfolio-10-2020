@@ -7,10 +7,10 @@ class Projects extends Component {
             {
             unit: 1,
             name: 'Plus One',
-            description: 'Plus One is a dating app clone built with HTML, Javascript and CSS. It simulates the "swiping" system of a modern dating application and makes API calls to two different web APIs to render fake data for users, rendering the data to the page asynchronously.',
-            link: 'https://plus-one.surge.sh',
+            description: 'Plus One is a dating app built with React.js, Javascript and Styled Components. It simulates the "swiping" system of a modern dating application and makes API calls to two different web APIs to render fake data for users, rendering the data to the page asynchronously. Users can review profiles they have said "yes".',
+            link: 'https://p1us-one.herokuapp.com/',
             screenshot: 'https://imgur.com/R9KNtKg.jpg',
-            tech: ['HTML', 'Javascript', 'CSS', 'Bootstrap 4']
+            tech: ['React', 'MongoDB', 'Express', 'Json Web Tokens', 'Styled Components', 'Formik', 'Node.js']
             },
             {
             unit: 2,
