@@ -7,7 +7,7 @@ class Projects extends Component {
             {
             unit: 1,
             name: 'Plus One',
-            description: 'Plus One is a dating app built with React.js, Javascript and Styled Components. It simulates the "swiping" system of a modern dating application and makes API calls to two different web APIs to render fake data for users, rendering the data to the page asynchronously. Users can review profiles they have said "yes".',
+            description: 'Plus One is a dating app that simulates the "swiping" system of a modern dating application and makes API calls to two different web APIs to render fake data for users, rendering the data to the page using async functions. Users can review profiles they have said "yes" to and I am currently implementing messaging capabilites with socket.io.',
             link: 'https://p1us-one.herokuapp.com/',
             screenshot: 'https://imgur.com/R9KNtKg.jpg',
             tech: ['React', 'MongoDB', 'Express', 'Json Web Tokens', 'Styled Components', 'Formik', 'Node.js']
@@ -18,7 +18,7 @@ class Projects extends Component {
             description: 'A Survivor-themed fan site, with messaging, friending, flair, and commenting all in the theme of the greatest show on television. As a database for Survivor seasons did not exist openly at the time, I created my own API to record data for the 40 seasons of the show.',
             link: 'https://survivor-database.herokuapp.com/',
             screenshot: 'https://imgur.com/xgrrHCg.jpg',
-            tech: ['MongoDB', 'Express', 'Node.js', 'Bootstrap', 'RESTful API']
+            tech: ['MongoDB', 'Express', 'Node.js', 'Google OAuth 2.0', 'Bootstrap', 'RESTful API']
             },
             {
             unit: 3,

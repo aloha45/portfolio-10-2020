@@ -1,9 +1,9 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import './AboutMe.css'
 
 class AboutMe extends Component {
     state = { 
-        profile: "I am always piecing thing together in coding and in life. I love when a team with a plan comes together and the execution goes just as expected. Often though, problems come up, unforeseen circumstances happen, and I love figuring out the best, most elegant solution. I am interested in collaborative projects, building out APIs, and learning new skills: currently working through e-commerce and Shopify and AWS S3, Amplify, and Elastic Beanstalk. As Maria Montessori said: 'Development is a series of rebirths.'"
+        profile: "Before coding, I worked in hospitality for fifteen years, and as a result, I end up thinking of a team as a table setting: what are people bringing to the table? Some bring forks. Others bring wine. Others bring napkins. Everyone is contributing. Everyone has a new perspective to offer. I am interested in collaborative software projects, building out APIs, understanding the shape of data, and learning new skills. I want to learn new things from teammates. I want to come in and talk about a podcast I heard the night before or an article I read that morning. Some day I will look back and be able to see how far I've come, but part of that means getting ahead as far as possible. As Maria Montessori said: 'Development is a series of rebirths.'"
      }
     render() { 
         return ( 
