@@ -32,7 +32,7 @@ class Contact extends Component {
                             <i className="fab fa-linkedin fa-4x" />
                             <p>LinkedIn</p>
                         </a>
-                        <a href="Cory Resume Feb.pdf">
+                        <a href="Cory Spicer March Resume.pdf">
                             <i className="fas fa-file fa-4x"></i>
                             <p>Resume</p>
                         </a>
