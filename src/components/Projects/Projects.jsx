@@ -7,7 +7,7 @@ class Projects extends Component {
             {
             unit: 1,
             name: 'Plus One',
-            description: 'Plus One is a dating app that simulates the "swiping" system of a modern dating application and makes API calls to two different web APIs to render fake data for users, rendering the data to the page using async functions. Users can review profiles they have said "yes" to and I am currently implementing messaging capabilites with socket.io.',
+            description: 'Plus One is a mobile responsive dating app that simulates the "swiping" system of a modern dating application and makes API calls to two different web APIs to render fake data for users, rendering the data to the page using async functions. Users can review profiles they have said "yes" to and I am currently implementing messaging capabilites with socket.io.',
             link: 'https://p1us-one.herokuapp.com/',
             screenshot: 'https://imgur.com/R9KNtKg.jpg',
             tech: ['React', 'MongoDB', 'Express', 'Json Web Tokens', 'Styled Components', 'Formik', 'Node.js']

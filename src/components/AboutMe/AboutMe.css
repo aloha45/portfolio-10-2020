@@ -10,12 +10,17 @@ background-image: url("data:image/svg+xml,%3Csvg width='80' height='88' viewBox=
 #profile-pic {
     margin: 0 auto;
     border-radius: 5px;
-    width: 55%;
+    width: 30%;
 }
 
 @media(max-width: 1000px) {
     #profile-pic {
         width: 75%
     }
+}
+
+.flexbox {
+    display: flex;
+    margin-top: 60px;
 }
 
