@@ -11,8 +11,15 @@ class Projects extends Component {
             link: 'https://p1us-one.herokuapp.com/',
             screenshot: 'https://imgur.com/R9KNtKg.jpg',
             tech: ['React', 'MongoDB', 'Express', 'Json Web Tokens', 'Styled Components', 'Formik', 'Node.js']
-            },
-            {
+        },  { 
+            unit: 0,
+        name: 'Book List',
+        description: 'This was a project to expand my knowledge of React. It accesses state management thanks to Context and stores its data inside local storage on the client side. It is composed entirely of functional components using Hooks to pass data across Contexts.',
+        link: 'https://main.d1zyauvskil86e.amplifyapp.com/',
+        screenshot: 'https://imgur.com/y4z7I4a.jpg',
+        tech: ['React Context', 'React Hooks', 'Client Side Storage'],
+        },
+        {
             unit: 2,
             name: "All the Fixin's",
             description: 'A Survivor-themed fan site, with messaging, friending, flair, and commenting all in the theme of the greatest show on television. As a database for Survivor seasons did not exist openly at the time, I created my own API to record data for the 40 seasons of the show.',
@@ -42,7 +49,7 @@ class Projects extends Component {
             link: 'https://eager-shoes.surge.sh/',
             screenshot: 'https://imgur.com/HrMDPR7.jpg',
             tech: ['HTML', 'CSS', 'Javascript', 'Confetti.js']
-        }
+            }
         ]
      }
      

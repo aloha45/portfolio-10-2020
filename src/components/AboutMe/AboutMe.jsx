@@ -9,7 +9,7 @@ class AboutMe extends Component {
         return (
             <React.Fragment>
                 <main>
-                    <div className='container'>
+                    <div className='profile-container'>
                         <img id="profile-pic" src='https://imgur.com/rqBlvzP.jpg' alt='cory so handsome' />
                         <div id='aboutme' className="card mb-3">
                             <h5 className="card-header">About Cory</h5>

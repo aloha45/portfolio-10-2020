@@ -1,5 +1,5 @@
 .navbar {
-    overflow: visible;
+    overflow:hidden;
     background-image: linear-gradient(to right, #007bff, whitesmoke);
     position: fixed;
     z-index: 99;

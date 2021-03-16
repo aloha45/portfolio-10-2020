@@ -1,11 +1,7 @@
 import React, { Component } from 'react'
 import './Contact.css'
 
-class Contact extends Component {
-    state = { 
-        
-     }
-    render() { 
+const Contact = () => {
         return ( 
             <React.Fragment>
                 <main>
@@ -47,6 +43,5 @@ class Contact extends Component {
             </React.Fragment>
          );
     }
-}
  
 export default Contact;
